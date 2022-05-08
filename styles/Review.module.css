@@ -1,11 +1,117 @@
+.fluid {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: relative;
+}
+
 .container {
   position: relative;
-  padding: 85.65px;
+  padding: 85.65px 0;
+  width: 1420px;
+  margin-top: 54px;
+  display: grid;
+  grid-template-columns: 60% 35%;
+  gap: 5%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.featureContainer {
+  position: relative;
+  height: 350px;
+}
+
+.card {
+  padding: 48px 48px 40px;
+  border-radius: 18.169px;
+  color: var(--white);
+  position: absolute;
+  width: 675px;
+}
+
+.card:first-child {
+  background-color: var(--primary);
+  box-shadow: -10px 20px 40px rgba(255, 165, 2, 0.4);
+  left: 20%;
+  top: -10%;
+  z-index: 2;
+}
+
+.card:last-child {
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.05);
+  opacity: 0.6;
+  color: var(--text-primary);
+  top: 20%;
+}
+
+.cardHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardHead h3 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 24.2254px;
+  line-height: 29px;
+  letter-spacing: 0.242254px;
+}
+
+.cardBody {
+  margin-top: 24px;
+}
+
+.cardBody p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+.authorDetails {
+  display: flex;
+  align-items: center;
+  gap: 19.38px;
+}
+
+.description {
+  justify-self: end;
+}
+
+.controllerContainer {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  bottom: -10%;
+  right: 0;
+}
+
+.controller {
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--secondary);
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.controller:last-of-type {
+  background: var(--secondary);
+  box-shadow: inset 0px -10px 20px #585867;
 }
 
 .designElement {
   position: absolute;
   transform: rotate(-25.41deg);
-  right: -32%;
+  right: -38%;
   top: -5%;
 }

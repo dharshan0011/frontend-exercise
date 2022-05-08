@@ -6,16 +6,16 @@
 }
 
 .background {
+  padding: 120px 0;
   width: 1720px;
   background: #fffbf4;
   display: flex;
   justify-content: center;
+  margin-top: 97px;
 }
 
 .container {
   text-align: center;
-  padding: 120px 0;
-  margin-top: 97px;
   width: 1420px;
 }
 
@@ -26,8 +26,8 @@
 }
 
 .designElement {
-  transform: rotate(-13.54°);
+  transform: rotate(13.54deg);
   position: absolute;
-  right: 0;
-  top: 18%;
+  right: -10%;
+  top: 25%;
 }

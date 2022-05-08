@@ -19,3 +19,63 @@
 .heroImageContainer {
   justify-self: end;
 }
+
+.card {
+  background: var(--white);
+  box-shadow: 5px 15px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 32px 26px 24px;
+  width: fit-content;
+  text-align: center;
+  position: relative;
+}
+
+.card h2 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card p {
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 5px;
+}
+
+.cardImageContainer {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translate(-50%, -12px);
+  padding: 12px;
+}
+
+.studentImageContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.studentImage:not(:first-child) {
+  margin-left: -11px;
+}
+
+.card:first-of-type {
+  position: absolute;
+  top: 40%;
+  left: 38%;
+  z-index: 1;
+}
+
+.card:last-of-type {
+  position: absolute;
+  top: 20%;
+  right: 0%;
+  z-index: 1;
+}

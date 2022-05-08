@@ -1,9 +1,17 @@
-.container {
-  width: 1420px;
+.fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.fluid {
+.head {
+  background: linear-gradient(90.63deg, #fffbf4 21.32%, #f7fcf9 132.04%);
   width: 100vw;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+}
+
+.container {
+  width: 1420px;
 }

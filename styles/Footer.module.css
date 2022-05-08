@@ -1,11 +1,19 @@
-.container {
+.fluid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
   background: var(--secondary);
+}
+
+.container {
   color: #b3b3b3;
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   padding: 140px 0 30px;
   position: relative;
+  width: 1420px;
 }
 
 .content {

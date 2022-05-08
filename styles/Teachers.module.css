@@ -1,6 +1,14 @@
+.fluid {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  position: relative;
+}
+
 .container {
   margin-top: 54px;
-  padding: 96px 0 84px;
+  padding: 96px 0 32.5px;
+  width: 1420px;
 }
 
 .heading {
@@ -53,4 +61,10 @@
   display: flex;
   width: 108px;
   justify-content: space-between;
+}
+
+.designElement {
+  position: absolute;
+  left: -3%;
+  top: 11%;
 }

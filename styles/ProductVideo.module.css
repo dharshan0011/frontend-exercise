@@ -2,6 +2,11 @@
   position: relative;
   margin-top: 77px;
   padding: 47px 0 53px;
+  width: 1420px;
+  display: grid;
+  grid-template-columns: 50% 45%;
+  gap: 5%;
+  align-items: center;
 }
 
 .designElement {
