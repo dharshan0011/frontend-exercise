@@ -1,0 +1,61 @@
+.container {
+  margin-top: 82px;
+}
+
+.fluid {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background: #2a2a31;
+  height: 250px;
+}
+
+.offset {
+  height: 265px;
+  position: relative;
+}
+
+.designElement {
+  left: -100px;
+  top: 0px;
+}
+
+.contentContainer {
+  display: grid;
+  grid-template-columns: 60% 30%;
+  gap: 10%;
+  position: relative;
+  width: 1420px;
+  padding: 67px 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.content h1 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+  color: var(--white);
+}
+
+.registerBtn {
+  margin-left: 79px;
+}
+
+.imageContainer {
+  justify-self: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.curvedArrow {
+  position: absolute;
+  left: 45%;
+  top: 50.09%;
+}

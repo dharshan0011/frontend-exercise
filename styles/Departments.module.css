@@ -1,0 +1,33 @@
+.fluid {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.background {
+  width: 1720px;
+  background: #fffbf4;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+  padding: 120px 0;
+  margin-top: 97px;
+  width: 1420px;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px 0 60px;
+}
+
+.designElement {
+  transform: rotate(-13.54°);
+  position: absolute;
+  right: 0;
+  top: 18%;
+}

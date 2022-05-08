@@ -1,0 +1,71 @@
+.heading {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 58px;
+  color: var(--text-primary);
+}
+
+.content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--text-secondary);
+  margin: 30px 0 50px;
+}
+
+.cta {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 19px 30px;
+  border: none;
+  box-shadow: 5px 10px 30px rgba(255, 165, 2, 0.3);
+  border-radius: 15px;
+  margin-top: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.card {
+  text-align: left;
+  padding: 24px 30px 30px;
+  background-color: var(--white);
+  box-shadow: 5px 30px 50px rgba(43, 42, 42, 0.05);
+  border-radius: 20px;
+  width: 453px;
+  height: 512px;
+}
+
+.cardHeading {
+  font-family: var(--primary-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #3b3b3b;
+  margin: 24px 0 10px;
+}
+
+.cardText {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--text-secondary);
+
+  /* /* margin: 10px 0 20px; */
+}
+
+.cardCtaLink {
+  color: var(--primary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+}
+
+.cardCtaLink *:last-child {
+  margin-left: 16px;
+}

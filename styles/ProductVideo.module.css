@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+  margin-top: 77px;
+  padding: 47px 0 53px;
+}
+
+.designElement {
+  position: absolute;
+  transform: rotate(-15deg);
+  left: -11%;
+  bottom: 14%;
+  transform: translate(-7%, 16%);
+}
