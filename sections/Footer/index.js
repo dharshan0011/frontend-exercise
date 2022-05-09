@@ -20,53 +20,53 @@ const Footer = () => {
               technology.
             </p>
             <div className={styles.socialContainer}>
-              <div className={styles.social}>
+              <a href='#' className={styles.social}>
                 <GoogleLogoLight />
-              </div>
-              <div className={styles.social}>
+              </a>
+              <a href='#' className={styles.social}>
                 <TwitterLogoLight />
-              </div>
-              <div className={styles.social}>
+              </a>
+              <a href='#' className={styles.social}>
                 <InstagramLogoLight />
-              </div>
-              <div className={styles.social}>
+              </a>
+              <a href='#' className={styles.social}>
                 <LinkedInLogoLight />
-              </div>
+              </a>
             </div>
           </div>
           <div className={styles.column}>
             <h3>Services</h3>
-            <p>Documentation</p>
-            <p>Design</p>
-            <p>Themes</p>
-            <p>Illustrations</p>
+            <a href='#'>Documentation</a>
+            <a href='#'>Design</a>
+            <a href='#'>Themes</a>
+            <a href='#'>Illustrations</a>
           </div>
           <div className={styles.column}>
             <h3>Company</h3>
-            <p>About</p>
-            <p>Terms</p>
-            <p>Privacy Policy</p>
-            <p>Career</p>
+            <a href='#'>About</a>
+            <a href='#'>Terms</a>
+            <a href='#'>Privacy Policy</a>
+            <a href='#'>Career</a>
           </div>
           <div className={styles.column}>
             <h3>Job Info</h3>
-            <p>Select</p>
-            <p>Services</p>
-            <p>Payment</p>
+            <a href='#'>Select</a>
+            <a href='#'>Services</a>
+            <a href='#'>Payment</a>
           </div>
           <div className={styles.column}>
             <h3>Contact</h3>
-            <p>
-              <span className={styles.contactType}>Call:</span> 9715546963
-            </p>
-            <p>
-              <span className={styles.contactType}>Email:</span>
+            <a href='tel:9715546963'>
+              <span className={styles.contactType}>Call: </span> 9715546963
+            </a>
+            <a href='mailto:example@gmail.com'>
+              <span className={styles.contactType}>Email: </span>
               example@gmail.com
-            </p>
-            <p>
-              <span className={styles.contactType}>Address:</span>Dhaka,
+            </a>
+            <a href='#'>
+              <span className={styles.contactType}>Address: </span>Dhaka,
               Bangladesh
-            </p>
+            </a>
           </div>
         </div>
         <div className={styles.copyright}>

@@ -76,3 +76,11 @@
   opacity: 0.2;
   border-top: 1px solid #ffffff;
 }
+
+.contactType {
+  color: var(--white);
+}
+
+.column:last-of-type {
+  font-weight: 500;
+}

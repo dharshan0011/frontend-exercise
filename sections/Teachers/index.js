@@ -35,10 +35,18 @@ const index = () => {
               <h3>Shaapir Prio</h3>
               <p>Assistant Director</p>
               <div className={styles.socialContainer}>
-                <GoogleLogoDark />
-                <TwitterLogoDark />
-                <InstagramLogoDark />
-                <LinkedInLogoDark />
+                <a href='#'>
+                  <GoogleLogoDark />
+                </a>
+                <a href='#'>
+                  <TwitterLogoDark />
+                </a>
+                <a href='#'>
+                  <InstagramLogoDark />
+                </a>
+                <a href='#'>
+                  <LinkedInLogoDark />
+                </a>
               </div>
             </div>
           </div>
@@ -50,10 +58,18 @@ const index = () => {
               <h3>Sellina</h3>
               <p>Director</p>
               <div className={styles.socialContainer}>
-                <GoogleLogoDark />
-                <TwitterLogoDark />
-                <InstagramLogoDark />
-                <LinkedInLogoDark />
+                <a href='#'>
+                  <GoogleLogoDark />
+                </a>
+                <a href='#'>
+                  <TwitterLogoDark />
+                </a>
+                <a href='#'>
+                  <InstagramLogoDark />
+                </a>
+                <a href='#'>
+                  <LinkedInLogoDark />
+                </a>
               </div>
             </div>
           </div>
@@ -65,10 +81,18 @@ const index = () => {
               <h3>John Smith</h3>
               <p>Assistant Director</p>
               <div className={styles.socialContainer}>
-                <GoogleLogoDark />
-                <TwitterLogoDark />
-                <InstagramLogoDark />
-                <LinkedInLogoDark />
+                <a href='#'>
+                  <GoogleLogoDark />
+                </a>
+                <a href='#'>
+                  <TwitterLogoDark />
+                </a>
+                <a href='#'>
+                  <InstagramLogoDark />
+                </a>
+                <a href='#'>
+                  <LinkedInLogoDark />
+                </a>
               </div>
             </div>
           </div>
