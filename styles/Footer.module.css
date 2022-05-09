@@ -50,13 +50,16 @@
 .column {
   display: flex;
   flex-direction: column;
-  margin: 42px;
+  /* margin: 42px; */
 }
 
 .column *:not(:first-child) {
   margin-bottom: 27px;
 }
 
+.column *:last-child {
+  margin-bottom: 50px;
+}
 .column h3 {
   font-family: var(--primary-font);
   font-weight: 700;

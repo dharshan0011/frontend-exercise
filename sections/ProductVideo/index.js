@@ -9,7 +9,7 @@ import Image from 'next/image'
 const index = () => {
   return (
     <section className={styles.container}>
-      <Image src='/feature-video.png' width={705} height={678} />
+      <Image src='/feature-video.png' width={705} height={676} />
       <div>
         <Heading>
           We Help to Create Possibility & Success in Your Career!

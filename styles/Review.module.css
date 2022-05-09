@@ -7,14 +7,14 @@
 
 .container {
   position: relative;
-  padding: 85.65px 0;
+  padding: 135.65px 0 0;
   width: 1420px;
-  margin-top: 54px;
   display: grid;
   grid-template-columns: 60% 35%;
   gap: 5%;
   align-items: center;
   justify-content: space-between;
+  min-height: 635px;
 }
 
 .featureContainer {

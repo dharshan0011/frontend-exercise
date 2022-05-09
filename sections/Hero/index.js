@@ -9,9 +9,13 @@ const Hero = () => {
   return (
     <main className={styles.container}>
       <div>
-        <h1 className={styles.heading}>Start Your</h1>
-        <h1 className={styles.heading}>Future</h1>
-        <h1 className={styles.heading}>Education</h1>
+        <h1 className={styles.heading}>
+          Start Your
+          <br />
+          Future
+          <br />
+          Education
+        </h1>
         <Content>
           Credibly redefine distinctive total linkage vis-a-vis multifunc data.
           Phosfluorescently impact goal-oriented strategic
